@@ -1,0 +1,62 @@
+<body class="text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-opacity-90 backdrop-blur-lg py-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 id="h_name" class="text-2xl font-bold text-[#00b4d8]">ASR</h1>
+            <button id="menu-toggle" class="md:hidden text-[#00b4d8] focus:outline-none">
+                ☰
+            </button>
+            <ul id="menu" class="hidden md:flex space-x-6 text-xl ">
+                <li><a href="#home" class=" element hover:text-[#00b4d8]">HOME</a></li>
+                <li><a href="#about" class=" element hover:text-[#00b4d8]">ABOUT</a></li>
+                <li><a href="#skills" class=" element hover:text-[#00b4d8]">SKILL</a></li>
+                <li><a href="#projects" class=" element hover:text-[#00b4d8]">PROJECT</a></li>
+                <li><a href="#contact" class=" element hover:text-[#00b4d8]">CONTACT</a></li>
+            </ul>
+        </div>
+        <ul id="mobile-menu" class="hidden flex flex-col space-y-4 mt-4 p-4 md:hidden text-center">
+            <li><a href="#home" class=" element block hover:text-[#00b4d8]">HOME</a></li>
+            <li><a href="#about" class=" element block hover:text-[#00b4d8]">ABOUT</a></li>
+            <li><a href="#skills" class=" element block hover:text-[#00b4d8]">SKILL</a></li>
+            <li><a href="#projects" class=" element block hover:text-[#00b4d8]">PROJECT</a></li>
+            <li><a href="#contact" class=" element block hover:text-[#00b4d8]">CONTACT</a></li>
+        </ul>
+    </nav>
+    
+    
+    <!-- Hero Section -->
+    <section id="home" class="h-screen flex items-center px-6 ">
+        <div class="flex flex-col items-start">
+            <h2 class="ml-[60px] text-5xl font-bold text-gray-300">Hello I'm</h2>
+            <p class="ml-[60px] mt-4 text-3xl text-[#00b4d8]">Amanullah Sheikh Rijve</p>
+            <p class="ml-[60px] mt-4 text-2xl text-gray-300">I am a || <span id="auto-text" class="text-[#00b4d8]"></span></p>
+            
+            <!-- Social Icons -->
+            <div class="flex mt-[20px] ml-[60px]">
+                <a href="https://github.com/Amanullah-Rijve" class="icon_element text-3xl text-[#00b4d8] mx-2 cursor-pointer hover:text-[#00b4d8]">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+    
+                <a href="https://www.linkedin.com/in/amanullah-sheikh-41825a334/" class="icon_element text-3xl text-[#00b4d8] mx-2 cursor-pointer hover:text-[#00b4d8]">
+                    <i class="fa-brands fa-github-square"></i>
+                </a>
+            </div>
+    
+            <!-- Buttons below Icons -->
+            <div class="mt-6 flex ml-[60px] space-x-4">
+                <!-- CV Button -->
+                <a href="path/to/your/cv.pdf" class=" element bg-[#00b4d8] text-black py-2 px-6 rounded-lg shadow-lg hover:bg-[#fff] hover:text-[#000] focus:bg-[#dba779] focus:text-black">
+                    View CV
+                </a>
+                
+                <!-- Hire Me Button -->
+                <a href="#contact" class=" icon_element bg-[#ffffff] text-black py-2 px-6 rounded-lg shadow-lg hover:bg-[#008c9e]">
+                    Hire Me
+                </a>
+            </div>
+        </div>
+        <img id="mian_img" src="pt_pic.png" alt="main_pic" class="mt-[20px] ml-[60px]">
+    </section>
+    
+    
